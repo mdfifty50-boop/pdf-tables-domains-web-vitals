@@ -41,4 +41,4 @@ Registry name: `io.github.mdfifty50-boop/pdf-tables-domains-web-vitals`
 - Short reserved or premium names can read as available in RDAP; results carry a warning.
 - OCR accuracy depends on scan quality.
 
-Need an OpenAI model migration done before the deadline? Fixed-price migration with before/after proof: https://rudoodtujjar.gumroad.com/l/csdpjv
+Need an OpenAI model migration done before the deadline? Fixed-price migration with before/after proof: https://mdfifty50-boop.github.io/openai-sunset-check/
