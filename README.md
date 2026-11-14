@@ -31,6 +31,9 @@ Registry name: `io.github.mdfifty50-boop/pdf-tables-domains-web-vitals`
 }
 ```
 
+## Guides
+- [Extract tables from a scanned Arabic PDF](docs/extract-tables-from-arabic-scanned-pdf.md)
+
 ## Limits
 - Short reserved or premium names can read as available in RDAP; results carry a warning.
 - OCR accuracy depends on scan quality.
