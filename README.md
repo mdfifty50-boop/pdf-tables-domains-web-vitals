@@ -33,6 +33,7 @@ Registry name: `io.github.mdfifty50-boop/pdf-tables-domains-web-vitals`
 ```
 
 ## Guides
+- Offline / CI version: [openai-sunset-check](https://github.com/mdfifty50-boop/openai-sunset-check), a zero-dependency CLI and GitHub Action for the same OpenAI shutdown table.
 - [Extract tables from a scanned Arabic PDF](docs/extract-tables-from-arabic-scanned-pdf.md)
 
 ## Limits
