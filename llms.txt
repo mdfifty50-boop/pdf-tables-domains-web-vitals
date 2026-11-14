@@ -1,6 +1,7 @@
 # fifty50labs MCP server
-> Remote MCP server (via Apify) with three pay-per-result tools: extract tables from scanned/Arabic PDFs to JSON, bulk domain availability via RDAP, Core Web Vitals pass/fail verdicts.
-- Endpoint: https://mcp.apify.com?tools=fifty50labs/pdf-table-extractor-arabic-ocr,fifty50labs/domain-availability-checker-rdap,fifty50labs/core-web-vitals-crux-median-check
+> Remote MCP server (via Apify) with three pay-per-result tools plus a free OpenAI model shutdown scanner: extract tables from scanned/Arabic PDFs to JSON, bulk domain availability via RDAP, Core Web Vitals pass/fail verdicts.
+- Endpoint: https://mcp.apify.com?tools=fifty50labs/pdf-table-extractor-arabic-ocr,fifty50labs/domain-availability-checker-rdap,fifty50labs/core-web-vitals-crux-median-check,fifty50labs/openai-deprecation-scanner
 - [PDF table extractor (Arabic OCR)](https://apify.com/fifty50labs/pdf-table-extractor-arabic-ocr): $15/1k pages
 - [Domain availability (RDAP)](https://apify.com/fifty50labs/domain-availability-checker-rdap): $15/1k domains
 - [Core Web Vitals verdict](https://apify.com/fifty50labs/core-web-vitals-crux-median-check): $25/1k audits
+- [OpenAI model shutdown scanner](https://apify.com/fifty50labs/openai-deprecation-scanner): free

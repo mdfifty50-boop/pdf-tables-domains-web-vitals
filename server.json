@@ -2,13 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.mdfifty50-boop/pdf-tables-domains-web-vitals",
   "title": "PDF Tables (Arabic OCR), Domain Availability, Core Web Vitals",
-  "description": "Extract tables from scanned/Arabic PDFs to JSON, check domain availability (RDAP), get CWV verdicts.",
-  "version": "1.0.0",
+  "description": "PDF tables (Arabic OCR) to JSON, domain availability (RDAP), CWV verdicts, free OpenAI shutdown scanner.",
+  "version": "1.1.0",
   "websiteUrl": "https://apify.com/fifty50labs",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com?tools=fifty50labs/pdf-table-extractor-arabic-ocr,fifty50labs/domain-availability-checker-rdap,fifty50labs/core-web-vitals-crux-median-check",
+      "url": "https://mcp.apify.com?tools=fifty50labs/pdf-table-extractor-arabic-ocr,fifty50labs/domain-availability-checker-rdap,fifty50labs/core-web-vitals-crux-median-check,fifty50labs/openai-deprecation-scanner",
       "headers": [
         {
           "name": "Authorization",
